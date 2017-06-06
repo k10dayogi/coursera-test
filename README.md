@@ -1,12 +1,17 @@
-## Welcome to GitHub Pages
+## Welcome to the Automatic Complexity R Package Site.
 
-You can use the [editor on GitHub](https://github.com/k10dayogi/coursera-test/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+### How to install
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+To install a pacakge from GitHub, you need to use the `devtools` package, which you can install using the command
 
-### Markdown
+```markdown
+install.packages('devtools')
+```
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+To install the `autocpx` package, use the command
+```markdown
+devtools::install_github('k10dayogi/autocpx')
+```
 
 ```markdown
 Syntax highlighted code block
